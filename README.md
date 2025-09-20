@@ -1,5 +1,3 @@
-Aqui está a tradução formatada para o README do GitHub, incorporando o título e a descrição da sua segunda versão (`TranscribeBR`) com a estrutura detalhada da primeira.
-
 -----
 
 # TranscribeBR
