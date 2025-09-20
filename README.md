@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Audio Text Processor
 
 This project is designed to process various audio and text files. It converts audio files to a 16kHz mono WAV format, transcribes the audio using GPU capabilities, formats the transcriptions to HTML, and then converts the HTML to a formatted PDF. The output includes both a formatted PDF and a simple TXT file with UTF-8 line breaks.
@@ -68,3 +69,7 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+=======
+# TranscribeBR
+Ferramenta para transcrição de arquivos de audio, para texto PDF.
+>>>>>>> 22a77294f5494d5bac749da269e2d28d1213f267
