@@ -1,0 +1,11 @@
+numpy
+torch
+whisper
+pydub
+beautifulsoup4
+pdfkit
+Flask
+python-dotenv
+tqdm
+yt-dlp
+instaloader
