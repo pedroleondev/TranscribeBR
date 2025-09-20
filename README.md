@@ -1,75 +1,83 @@
-<<<<<<< HEAD
-# Audio Text Processor
+Aqui está a tradução formatada para o README do GitHub, incorporando o título e a descrição da sua segunda versão (`TranscribeBR`) com a estrutura detalhada da primeira.
 
-This project is designed to process various audio and text files. It converts audio files to a 16kHz mono WAV format, transcribes the audio using GPU capabilities, formats the transcriptions to HTML, and then converts the HTML to a formatted PDF. The output includes both a formatted PDF and a simple TXT file with UTF-8 line breaks.
+-----
 
-## Project Structure
+# TranscribeBR
+
+Ferramenta para transcrição de arquivos de áudio para texto em PDF.
+
+Este projeto processa diversos arquivos de áudio e texto. Ele converte arquivos de áudio para o formato WAV mono de 16kHz, transcreve o áudio (utilizando GPU, se disponível), formata as transcrições para HTML e, por fim, converte o HTML para um PDF formatado. A saída inclui tanto o PDF formatado quanto um arquivo `.txt` simples (com quebras de linha UTF-8).
+
+## Estrutura do Projeto
 
 ```
 audio_text_processor
 ├── src
-│   ├── __init__.py
-│   ├── audio
-│   │   ├── __init__.py
-│   │   ├── converter.py
-│   │   └── transcriber.py
-│   ├── text
-│   │   ├── __init__.py
-│   │   ├── formatter.py
-│   │   └── pdf_generator.py
-│   ├── utils
-│   │   ├── __init__.py
-│   │   └── file_utils.py
-│   └── main.py
+│   ├── __init__.py
+│   ├── audio
+│   │   ├── __init__.py
+│   │   ├── converter.py
+│   │   └── transcriber.py
+│   ├── text
+│   │   ├── __init__.py
+│   │   ├── formatter.py
+│   │   └── pdf_generator.py
+│   ├── utils
+│   │   ├── __init__.py
+│   │   └── file_utils.py
+│   └── main.py
 ├── requirements.txt
 ├── .env.example
 └── README.md
 ```
 
-## Installation
+## Instalação
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd audio_text_processor
-   ```
+1.  Clone o repositório:
 
-2. Create a virtual environment:
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+    ```
+    git clone <url-do-repositorio>
+    cd audio_text_processor
+    ```
 
-3. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
+2.  Crie um ambiente virtual (virtual environment):
 
-## Usage
+    ```
+    python -m venv venv
+    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+    ```
 
-1. Prepare your audio files in supported formats (.mp4, .m4a, .mp3, .wav).
-2. Update the `.env` file with the necessary paths for input and output directories.
-3. Run the main application:
-   ```
-   python src/main.py
-   ```
+3.  Instale os pacotes necessários:
 
-## Functionality
+    ```
+    pip install -r requirements.txt
+    ```
 
-- **Audio Conversion**: Converts various audio formats to 16kHz mono WAV format.
-- **Transcription**: Utilizes GPU for efficient transcription of audio files.
-- **Text Formatting**: Formats transcribed text into HTML for better presentation.
-- **PDF Generation**: Converts formatted HTML into a well-structured PDF document.
-- **Output**: Saves the transcriptions in both PDF and simple TXT formats.
+## Uso
 
-## Contributing
+1.  Prepare seus arquivos de áudio nos formatos suportados (.mp4, .m4a, .mp3, .wav).
+2.  Atualize o arquivo `.env` com os caminhos necessários para os diretórios de entrada (input) e saída (output).
+3.  Execute a aplicação principal:
+    ```
+    python src/main.py
+    ```
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+## Funcionalidades
 
-## License
+  - **Conversão de Áudio**: Converte vários formatos de áudio para o formato WAV mono de 16kHz.
+  - **Transcrição**: Utiliza GPU (se disponível) para transcrição eficiente de arquivos de áudio.
+  - **Formatação de Texto**: Formata o texto transcrito em HTML para melhor apresentação.
+  - **Geração de PDF**: Converte o HTML formatado em um documento PDF bem estruturado.
+  - **Saída (Output)**: Salva as transcrições nos formatos PDF e TXT simples.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-=======
-# TranscribeBR
-Ferramenta para transcrição de arquivos de audio, para texto PDF.
->>>>>>> 22a77294f5494d5bac749da269e2d28d1213f267
+## Contribuição
+
+Contribuições são bem-vindas\! Sinta-se à vontade para enviar um pull request ou abrir uma issue para sugestões ou melhorias.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+-----
+
+*Pedro Leon Dev Python*
